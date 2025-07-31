@@ -1,6 +1,6 @@
 # Plan Completo y Desglosado del Proyecto: Sistema de Aprobación de Créditos con IA Interpretable
 
-**Objetivo**: Crear un sistema automatizado que prediga la probabilidad de impago de un solicitante de préstamo, utilizando el dataset "Home Credit Default Risk" de Kaggle. El sistema será preciso, interpretable y estará listo para un entorno bancario real, destacándote como un profesional competente.
+**Objetivo**: Crear un sistema automatizado que prediga la probabilidad de impago de un solicitante de préstamo, utilizando el dataset "Home Credit Default Risk" de Kaggle. 
 
 ---
 
@@ -30,9 +30,7 @@
   - Instala librerías: `pip install pandas numpy scikit-learn matplotlib seaborn lightgbm shap flask fastapi streamlit docker`.
   - Configura un repositorio en GitHub y haz tu primer commit.
 
-- **Tareas Prácticas**:
-  - Investiga el dataset y escribe un resumen del problema en `/docs/problema.md`.
-  - Sube la estructura inicial a GitHub.
+
 
 - **Recursos**:
   - [Documentación de Git](https://git-scm.com/doc)
@@ -59,8 +57,6 @@
 - **2.4. Documentación**:
   - Resume tus hallazgos en el notebook con texto y gráficos.
 
-- **Tareas Prácticas**:
-  - Genera al menos 5 visualizaciones y explica tus insights.
 
 - **Recursos**:
   - [Guía de EDA](https://towardsdatascience.com/exploratory-data-analysis-in-python-a-step-by-step-process-d0dfa6bf5172)
@@ -84,8 +80,6 @@
   - Divide en entrenamiento/prueba (80/20).
   - Escala con `StandardScaler`.
 
-- **Tareas Prácticas**:
-  - Crea un script en `/src/preprocessing.py` con todas las transformaciones.
 
 - **Recursos**:
   - [Guía de Feature Engineering](https://www.kaggle.com/learn/feature-engineering)
@@ -105,8 +99,7 @@
 - **4.3. Desbalance de Clases**:
   - Usa SMOTE o ajusta pesos en el modelo.
 
-- **Tareas Prácticas**:
-  - Guarda el mejor modelo en `/models/model.pkl`.
+
 
 - **Recursos**:
   - [Documentación de LightGBM](https://lightgbm.readthedocs.io/en/latest/)
@@ -126,8 +119,6 @@
 - **5.3. Análisis de Dependencias**:
   - Crea SHAP dependence plots.
 
-- **Tareas Prácticas**:
-  - Crea un notebook en `/notebooks/interpretacion.ipynb` con explicaciones.
 
 - **Recursos**:
   - [Documentación de SHAP](https://shap.readthedocs.io/en/latest/)
@@ -149,9 +140,6 @@
 
 - **6.4. Dashboard con Streamlit**:
   - Desarrolla `/dashboard/app.py` para visualizar predicciones.
-
-- **Tareas Prácticas**:
-  - Despliega localmente la API y el dashboard.
 
 - **Recursos**:
   - [Tutorial de FastAPI](https://fastapi.tiangolo.com/tutorial/)
@@ -178,18 +166,7 @@
 - **7.5. Documentación**:
   - Redacta un README detallado en `/docs`.
 
-- **Tareas Prácticas**:
-  - Finaliza el proyecto y preséntalo en GitHub.
+
 
 - **Recursos**:
   - [Mejores prácticas de despliegue](https://www.kdnuggets.com/2020/12/deploy-machine-learning-models-production.html)
-
----
-
-## Consejos para Destacar
-- **Documenta Todo**: Usa notebooks y un README claro.
-- **Usa Git**: Sube cada parte a GitHub.
-- **Prueba tu Trabajo**: Valida cada etapa.
-- **Presentación**: Explica el impacto del proyecto en una entrevista.
-
-¡Con este plan, estarás más preparado que la mayoría para competir y conseguir empleo!
